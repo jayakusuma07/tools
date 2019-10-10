@@ -26,22 +26,31 @@ cyan='\e[1;36m'
 red='\e[1;31m'
 clear
 echo -b "
-@@@@@@@        @@@   @@@@@@@   @@@@@@   @@@  @@@  
-@@@@@@@@      @@@@   @@@@@@@@  @@@@@@@  @@@@ @@@  
-@@!  @@@     @@!@!   @@!  @@@      @@@  @@!@!@@@  
-!@!  @!@    !@!!@!   !@!  @!@      @!@  !@!!@!@!  
-@!@!!@!    @!! @!!   @!@  !@!  @!@!!@   @!@ !!@!  
-!!@!@!    !!!  !@!   !@!  !!!  !!@!@!   !@!  !!!  
-!!: :!!   :!!:!:!!:  !!:  !!!      !!:  !!:  !!!  
-:!:  !:!  !:::!!:::  :!:  !:!      :!:  :!:  !:!  
-::   :::       :::    :::: ::  :: ::::   ::   ::  
- :   : :       :::   :: :  :    : : :   ::    :   
-                                                  ";
+
+___╔═══════════╗ 
+ ╔═╝███████████╚═╗
+╔╝███████████████╚╗ 
+║█████████████████║ 
+║█████████████████║ 
+║█████████████████║
+║█╔█████████████╗█║ 
+╚╦╝███▒▒███▒▒███╚╦╝ 
+╔╝██▒▒▒▒███▒▒▒▒██╚╗ 
+║██▒▒▒▒▒███▒▒▒▒▒██║ 
+║██▒▒▒▒█████▒▒▒▒██║ 
+╚╗███████████████╔╝
+╔═╬══╦╝██▒█▒██╚╦══╝.▒.. 
+║█║══║█████████║　...▒.  
+║█║══║█║██║██║█║　.▒..
+║█║══╚═╩══╩╦═╩═╩═╦╗▒.  
+╔╝█╚══╦═╦══╦╩═╦═╦═╩╝
+╔╝█████║█║██║██║█║
+║██████║█████████║                           ";
 echo "";
 figlet RECEH | lolcat
 
-echo -b " CODED BY R4D3N G0Z4LL $green " |lolcat
-echo -b " FIND ME ON FB : Raden Gozal $green " |lolcat
+echo -b " CODED BY JAYA KUSUMA $green " |lolcat
+echo -b " FIND ME ON FB : Jaya Kusuma $green " |lolcat
 figlet LITE-BOT | lolcat
 
 ###################################################
@@ -55,7 +64,7 @@ echo -b $green"[#]> (Ctrl + C ) Detected, Trying To Exit ... " |lolcat
 echo -b $green"[#]> MAKASIH UDH PAKE TOOLS GUE " |lolcat
 sleep 1
 echo ""
-echo -b $green"[#]> R4D3N WAS HERE" |lolcat
+echo -b $green"[#]> KUSUMA WAS HERE" |lolcat
 
 echo -b $green"[#]> See you Again :)..." |lolcat
 sleep 1
@@ -91,7 +100,7 @@ echo -e "╭─R4D3N G0Z4LL [PILIH AJA NOMERNYA]" | lolcat
 read -p "╰─#" pil;
 
 case $pil in
-    1) echo "R4D3N TOOLS-BOT KUBIK" | lolcat
+    1) echo "TOOLS-BOT KUBIK" | lolcat
             pkg install php
             git clone https://github.com/radenvodka/kubik-bot
            	cd kubik-bot
@@ -100,7 +109,7 @@ case $pil in
             
 ;;
 
-    2) echo "R4D3N TOOLS-VEEU" | lolcat
+    2) echo "TOOLS-VEEU" | lolcat
     		pkg install php
     		pkg install git
     		git clone https://github.com/shadowbot82/veeu-bot
@@ -110,7 +119,7 @@ case $pil in
 ;;
 
 
- 3) echo "R4D3N TOOLS-CAPING" | lolcat
+ 3) echo "TOOLS-CAPING" | lolcat
     		pkg install php
     		pkg install git
     		git clone https://github.com/shadowbot82/caping-new
@@ -118,7 +127,7 @@ case $pil in
     		nano cfg.php
 
     		;;
-  4) echo "R4D3N TOOLS-TOTO NEWS" | lolcat
+  4) echo "TOOLS-TOTO NEWS" | lolcat
     		pkg install php
     		pkg install git
     		git clone https://github.com/ctrndk/toto_news
@@ -127,7 +136,7 @@ case $pil in
 
     		;;
 
-5) echo "R4D3N TOOLS-BOT BTC" | lolcat
+5) echo "TOOLS-BOT BTC" | lolcat
     		pkg install php
     		pkg install git
     		git clone https://github.com/kriskros666/tuyul
@@ -136,7 +145,7 @@ case $pil in
 
     		;;
 
-6) echo "R4D3N TOOLS-CASHTREE" | lolcat
+6) echo "TOOLS-CASHTREE" | lolcat
     		pkg install php
     		pkg install git
     		git clone https://github.com/shadowbot82/cashtree
@@ -145,7 +154,7 @@ case $pil in
 
     		;;
 
-  7) echo "R4D3N TOOLS-PP GUARD" | lolcat
+  7) echo "TOOLS-PP GUARD" | lolcat
     		pkg install php
     		pkg install git
     		git clone https://github.com/Noxturnix/guardn
@@ -153,7 +162,7 @@ case $pil in
     		python2 guardn.py
 
     		;;
-8) echo "R4D3N TOOLS-bot pivot" | lolcat
+8) echo "TOOLS-bot pivot" | lolcat
     		pkg install php
     		pkg install git
     		git clone https://github.com/shadowbot82/pivot
@@ -162,7 +171,7 @@ case $pil in
 
     		;;
 
-    		9) echo "R4D3N TOOLS-JADWAL SHOLAT" | lolcat
+    		9) echo "TOOLS-JADWAL SHOLAT" | lolcat
     		pkg install php
     		pkg install git
     		git clone https://github.com/aryanrtm/Jadwal-Sholat
@@ -171,7 +180,7 @@ sh jadwal-sholat.sh
 
 ;;
 
-10) echo "R4D3N TOOLS-GELUD KUYY" | lolcat
+10) echo "TOOLS-GELUD KUYY" | lolcat
     		pkg install php
     		pkg install git
     		git clone https://github.com/soracyberteam/simeky-bot
